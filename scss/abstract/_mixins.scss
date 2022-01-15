@@ -1,0 +1,35 @@
+@mixin partie_centre {
+    display: flex; /*Pour que l'image et texte soient à côte à côte*/
+    align-items: center;
+    margin:auto;
+}
+
+@mixin margin {
+    margin: 200px auto;
+    @include small{
+        margin: 100px auto;
+    }
+}
+
+@mixin width {
+    width: 60%;
+}
+
+@mixin reveal_animate {
+    &.animate {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
+
+@mixin medium {
+    @media (max-width: 800px) {
+        @content;
+    }
+ }
+
+ @mixin small {
+    @media (max-width: 480px) {
+        @content;
+    }
+ }

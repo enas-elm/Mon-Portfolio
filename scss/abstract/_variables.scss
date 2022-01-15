@@ -1,0 +1,14 @@
+$color-primary: #9c583f;
+$color-primary-lighter: #c58d78;
+
+$color-body: rgb(252, 247, 241);
+
+$color-darker-text: #473b33;
+$color-medium-text: lighten($color-darker-text, 4%);
+$color-lighter-text: lighten($color-darker-text, 8%);
+
+$beige: rgb(253, 239, 216);
+$light-green: rgb(211, 224, 164);
+
+$nav: #50290f;
+$nav-hover:#160a02;
