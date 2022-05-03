@@ -449,6 +449,10 @@ button svg {
   filter: none;
 }
 
+.text-align {
+  text-align: center;
+}
+
 /*Responsive*/
 @media (max-width: 480px) {
   .project_round {
