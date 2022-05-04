@@ -450,7 +450,9 @@ button svg {
 }
 
 .text-align {
+  margin-top: 90px;
   text-align: center;
+  font-weight: 800;
 }
 
 /*Responsive*/
